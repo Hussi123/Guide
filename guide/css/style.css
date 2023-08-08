@@ -1,0 +1,134 @@
+/* banner start */
+.banner {
+  padding: 205px 0;
+  text-align: center;
+  background: url("../images/guide/banner-bg-1.jpg") no-repeat center/cover;
+}
+
+/* banner end */
+
+
+/* color-sec start */
+.color-sec {
+  padding-top: 120px;
+  background: #fff;
+}
+
+
+.color-sec .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.color-sec .card__color {
+  width: 139px;
+  height: 148px;
+  border-radius: 11px;
+  background: #274C5B;
+  margin-bottom: 16px;
+}
+
+.color-sec .card__color-2 {
+  background: #7EB693;
+}
+
+.color-sec .card__color-3 {
+  background: #EFD372;
+}
+
+.color-sec .card__color-4 {
+  background: #D4D4D4;
+}
+
+.color-sec .card__color-5 {
+  background: #F9F8F8;
+}
+
+.color-sec .card__color-6 {
+  background: #EFF6F1;
+}
+
+.color-sec .card__color-7 {
+  background: #525C60;
+}
+
+.color-sec .card__text {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* color-sec end */
+
+
+/* text__style start */
+.text__style {
+  margin-top: 250px;
+  background: #fff;
+}
+
+.text__style-item {
+  margin-bottom: 70px;
+}
+
+.text__style-item:last-child {
+  margin-bottom: 0;
+}
+
+/* text__style end */
+
+/* paragraph-sec start */
+.paragraph-sec {
+  padding-top: 250px;
+}
+
+/* paragraph-sec end */
+
+/* list-sec start */
+.list-sec {
+  padding-top: 250px;
+}
+
+.list-sec__list {
+  margin-bottom: 21px;
+}
+
+/* list-sec end */
+
+
+/* explanation start */
+.explanation {
+  padding-top: 250px;
+}
+
+.explanation__card {
+  border-radius: 30px;
+  background: #F1EDEA;
+  padding: 69px 59px;
+}
+
+.explanation__card-text {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 165.4%;
+}
+
+/* explanation end */
+
+/* button section start */
+.button-sec {
+  padding-top: 250px;
+}
+
+.button-sec__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* button section end */

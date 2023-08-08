@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- main css  link -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- organick  page link -->
+    <link rel="stylesheet" href="./css/oraganik.css">
+
+    <title>Organik</title>
+</head>
+
+<body>
+    
+      <!-- HEADER START  -->
+      <header class="header">
+        <div class="container">
+            <a href="./index.html" class="header__logo">
+                <img src="./images/guide/Logo.svg" alt="">
+                <span>Organick</span>
+            </a>
+
+            <nav class="navbar">
+                <a href="./organik.html" class="navbar__link">Home</a>
+                <a href="./about.html" class="navbar__link">About</a>
+                <a href="./pages.html" class="navbar__link">Pages</a>
+                <a href="./shop.html" class="navbar__link header__dropdown">
+                    <span> Shop </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6" fill="none">
+                        <path d="M0.791016 1.5L3.79102 4.5L6.79102 1.5" stroke="#274C5B" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></a>
+                <a href="./services.html" class="navbar__link">Projects</a>
+                <a href="./news.html" class="navbar__link">News</a>
+            </nav>
+
+            <div class="header__right d-none d-xxl-flex">
+                <div class="header__right-input">
+                    <input type="text" id="header__right-input">
+                    <label for="header__right-input">
+                        <img src="./images/guide/Search_Icon.svg" alt="">
+                    </label>
+                </div>
+                <div class="header__right-card">
+                    <img src="images/guide/Cart_Icon.svg" alt="">
+                    <span>Cart (0)</span>
+                </div>
+            </div>
+            <label for="navbar__toglar" class="header__mobile-navbar">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MOBILE NAVBAR START -->
+    <input class="bg-danger" type="checkbox" id="navbar__toglar">
+    <section class="mobile-navbar">
+        <label for="navbar__toglar" class="mobile-navbar__close">
+            <i class="bi bi-x-lg"></i>
+
+        </label>
+        <nav class="navbar">
+            <a href="./organik.html" class="navbar__link">Home</a>
+            <a href="./about.html" class="navbar__link">About</a>
+            <a href="./pages.html" class="navbar__link">Pages</a>
+            <a href="./shop.html" class="navbar__link header__dropdown">
+                <span> Shop </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6" fill="none">
+                    <path d="M0.791016 1.5L3.79102 4.5L6.79102 1.5" stroke="#274C5B" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg></a>
+            <a href="./services.html" class="navbar__link">Projects</a>
+            <a href="./news.html" class="navbar__link">News</a>
+        </nav>
+    </section>
+    <!-- MOBILE NAVBAR END -->
+
+
+    <!-- BANNER START -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-xxl-5">
+                    <div class="banner__info">
+                        <div class="banner__title">
+                            <h4 class="commons__title yellowtail">100% Natural Food</h4>
+                            <h1 class="commons__title h1">
+                                Choose the best
+                                healthier way
+                                of life
+                            </h1>
+                        </div>
+                        <button class="banner__btn commons__btn warning">
+                            <span>Explore Now</span> <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                viewBox="0 0 19 19" fill="none">
+                                <circle cx="9.5" cy="9.5" r="9.5" fill="#335B6B" />
+                                <path d="M9.47592 6.12891L12.8705 9.19342L9.47592 12.2579M12.399 9.19342H5.51562"
+                                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="banner__position-img" src="./images/organik/organik-banner-bg-position.png" alt="">
+    </section>
+    <!-- BANNER END -->
+
+    <!-- IMAGES SEC START  -->
+    <section class="img-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6  text-lg-end ">
+                    <div class="img-sec__left">
+                        <img src="./images/organik/img-sec__left.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mt-5  mt-lg-0">
+                    <div class="img-sec__right">
+                        <img src="./images/organik/img-sec__right.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- IMAGES SEC END  -->
+
+    <!-- ABOUT-SEC START -->
+    <section class="about-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-6 col-xxl-6">
+                </div>
+                <div class="col-12 col-sm-10 col-xl-6 col-xxl-5 mx-auto">
+                    <div class="about__info">
+                        <div class="about-sec__italik yellowtail">About us</div>
+                        <h2 class="about-sec__title commons__title h2">
+                            We Believe in Working
+                            Accredited Farmers
+                        </h2>
+                        <div class="about-sec__text commons__p">Simply dummy text of the printing and typesetting
+                            industry. Lorem had ceased to
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley.</div>
+                    </div>
+                    <div class="about-sec__description">
+                        <div class="about-sec__description-item">
+                            <img src="./images/organik/about-sec__description-img1.svg" alt=""
+                                class="about-sec__description-img">
+                            <div class="about-sec__description-text">
+                                <h6 class="commons__title h6">Organic Foods Only</h6>
+                                <p class="commons__p">Simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum</p>
+                            </div>
+                        </div>
+                        <div class="about-sec__description-item">
+                            <img src="./images/organik/about-sec__description-img2.svg" alt=""
+                                class="about-sec__description-img">
+                            <div class="about-sec__description-text">
+                                <h6 class="commons__title h6">Quality Standards</h6>
+                                <p class="commons__p">Simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="about-sec__btn organick__btn commons__btn">
+                        <span>Shop Now</span>
+                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="9.5" r="9.5" fill="#335B6B" />
+                            <path d="M9.97641 6.12891L13.371 9.19342L9.97641 12.2579M12.8995 9.19342H6.01611"
+                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT-SEC END -->
+
+    <!-- PRODUCTS START -->
+    <section class="product">
+        <div class="container">
+            <div class="product-title__italik yellowtail text-center">Categories</div>
+            <h2 class="product-title commons__title h2 text-center">Our Products</h2>
+            <div class="product-cards">
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/product-cards__item-img-2-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/product-cards__item-img-1-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/product-cards__item-img-3-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/product-cards__item-img-4-removebg-preview (1).png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/product-cards__item-img-5-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/product-cards__item-img-6-removebg-preview (1).png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/product-cards__item-img-7-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/product-cards__item-img-8-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="product__btn organick__btn commons__btn mx-auto">
+                <span>Load More</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+                    <circle cx="9.68066" cy="9.5" r="9.5" fill="#335B6B" />
+                    <path d="M9.65708 6.12891L13.0516 9.19342L9.65708 12.2579M12.5802 9.19342H5.69678" stroke="white"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+    </section>
+    <!-- PRODUCTS END -->
+
+    <!-- TESTIMONIAL START -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9 px-5 mx-auto text-center">
+                    <div class="testimonial-content">
+                        <div class="testimonial-italik yellowtail">Testimonial</div>
+                        <h2 class="testimonial-title commons__title h2">What Our Customer Saying?</h2>
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+
+                            <div class="carousel-inner mx-auto">
+                                <div class="carousel-item active">
+                                    <div class="testimonial-img mb-4">
+                                        <img src="./images/organik/testimonial-bg__img.png" alt="">
+                                        <div class="testimonial-icons mt-3">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="testmonial__text commons__p mb-3">Simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been.
+                                    </div>
+                                    <h6 class="tesimonial-title commons__title h6"> Sara taylor</h6>
+                                    <span>Consumer</span>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-img mb-4">
+                                        <img src="./images/organik/testimonial-bg__img.png" alt="">
+                                        <div class="testimonial-icons mt-3">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="testmonial__text commons__p mb-3">Simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been.
+                                    </div>
+                                    <h6 class="tesimonial-title commons__title h6"> Sara taylor</h6>
+                                    <span>Consumer</span>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-img mb-4">
+                                        <img src="./images/organik/testimonial-bg__img.png" alt="">
+                                        <div class="testimonial-icons mt-3">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="testmonial__text commons__p mb-3">Simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been.
+                                    </div>
+                                    <h6 class="tesimonial-title commons__title h6"> Sara taylor</h6>
+                                    <span>Consumer</span>
+
+                                </div>
+                            </div>
+                            <div class="carousel-indicators"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TESTIMONIAL END -->
+
+    <!-- OFFER START -->
+    <section class="offer">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-11 mx-auto px-5">
+                    <div class="offer-head">
+                        <div class="offer-left">
+                            <div class="offer-title__italik yellowtail">Offer</div>
+                            <h2 class="offer-title commons__title h2">We Offer Organic For You</h2>
+                        </div>
+                        <div class="offer-right">
+                            <button class="commons__btn warning">
+                                <span>View All Prduckt</span>
+                                <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.68066" cy="9.5" r="9.5" fill="#335B6B" />
+                                    <path d="M9.65708 6.12891L13.0516 9.19342L9.65708 12.2579M12.5802 9.19342H5.69678"
+                                        stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-cards">
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/Photo-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/Photo2-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/Photo3-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cards__item">
+                    <span class="product-cards__item-name">Vegetable</span>
+                    <div class="product-cards__item-img">
+                        <img src="images/organik/Photo4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-cards__item-content">
+                        <div class="product-cards__item-title">
+                            Calabrese Broccoli
+                        </div>
+                        <div class="product-cards__item-price">
+                            <div class="product-cards__item-price__left">
+                                <span>$20.00</span>
+                                <b>$11.00</b>
+                            </div>
+                            <div class="product-cards__item-price__right">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- OFFER END -->
+
+    <!-- ECO SEC START -->
+    <section class="eco-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-5">
+                </div>
+                <div class="col-12 col-xl-6">
+                    <div class="eco-sec__info">
+                        <div class="eco-sec__italik yellowtail">Eco Friendly</div>
+                        <h2 class="eco-sec__title commons__title h2">
+                            Econis is a Friendly
+                            Organic Store
+                        </h2>
+                        <div class="eco-sec__info-item">
+                            <span class="commons__title h6">Start with Our Company First</span>
+                            <p class="commons__p">Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                                accusantium doloremque laudantium. Sed ut perspiciatis.
+                            </p>
+                        </div>
+                        <div class="eco-sec__info-item">
+                            <span class="commons__title h6">Learn How to Grow Yourself</span>
+                            <p class="commons__p">Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                                accusantium doloremque laudantium. Sed ut perspiciatis.
+                            </p>
+                        </div>
+                        <div class="eco-sec__info-item">
+                            <span class="commons__title h6">Farming Stratagies today</span>
+                            <p class="commons__p">Sed ut perspiciatis unde omnis iste natus error sit voluptat
+                                accusantium doloremque laudantium. Sed ut perspiciatis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./images/organik/Friendly.jpg" alt="" class="eco-sec__img-position">
+    </section>
+    <!-- ECO SEC END -->
+
+    <!-- GALLERY SEC START -->
+    <section class="gallery">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12 col-xl-4">
+                    <div class="gallery-item">
+                        <div class="gallery-item__img">
+                            <img class="img-fluid" src="./images/organik/gallery__img-1.png" alt="">
+                        </div>
+                        <button class="commons__btn gallery__btn">Organic Juice</button>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-4">
+                    <div class="gallery-item">
+                        <div class="gallery-item__img">
+                            <img class="img-fluid" src="./images/organik/gallery__img-2.png" alt="">
+                        </div>
+                        <button class="commons__btn gallery__btn">Organic Food</button>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-4 ">
+                    <div class="gallery-item">
+                        <div class="gallery-item__img">
+                            <img class="img-fluid" src="./images/organik/gallery__img-3.png" alt="">
+                        </div>
+                        <button class="commons__btn gallery__btn">Nuts Cookis</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GALLERY SEC END -->
+
+    <!-- NEWS START -->
+    <section class="news">
+        <div class="container">
+            <div class="news-head">
+                <div class="news-head__left">
+                    <div class="news-title yellowtail">News</div>
+                    <h2 class="commons__title h2">Discover weekly content about organic food, & more</h2>
+                </div>
+                <div class="news-head__right">
+                    <button class="commons__btn outline ml-auto">
+                        <span>More News</span>
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="9.5" cy="9.5" r="9.5" fill="#335B6B" />
+                            <path d="M9.47641 6.12891L12.871 9.19342L9.47641 12.2579M12.3995 9.19342H5.51611"
+                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="news-blog">
+                <div class="news-blog__left">
+                    <img class="img-fluid" src="./images/organik/news-blog__left.png" alt="">
+                    <div class="news-blog__top-text">25 <br> Nov</div>
+                    <div class="news-blog__content">
+                        <div class="news-blog__content-autor">
+                            <i class="bi bi-person-fill text-warning"></i>
+                            <span>By Rachi Card</span>
+                        </div>
+                        <div class="news-blog__content-title commons__title h6">The Benefits of Vitamin D & How to Get
+                            It</div>
+                        <div class="news-blog__text commons__p">Simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum</div>
+                        <div class="news-blog__content-btn commons__btn warning"><span>Read More</span>
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="9.5" cy="9.5" r="9.5" fill="#335B6B" />
+                                <path d="M9.47641 6.12891L12.871 9.19342L9.47641 12.2579M12.3995 9.19342H5.51611"
+                                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-blog__right">
+                    <img src="./images/organik/news-blog__right.png" alt="">
+                    <span class="news-blog__top-text">25 <br> Nov</span>
+                    <div class="news-blog__content">
+                        <div class="news-blog__content-autor">
+                            <i class="bi bi-person-fill text-warning"></i>
+                            <span>By Rachi Card</span>
+                            <div class="news-blog__content-title commons__title h6">Our Favourite Summertime Tommeto
+                            </div>
+                            <div class="news-blog__text commons__p">Simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum</div>
+                            <div class="news-blog__content-btn commons__btn warning"><span>Read More</span>
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.5" cy="9.5" r="9.5" fill="#335B6B" />
+                                    <path d="M9.47641 6.12891L12.871 9.19342L9.47641 12.2579M12.3995 9.19342H5.51611"
+                                        stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NEWA END -->
+
+
+    <!-- SUBSCRIBE START  -->
+    <section class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-11 mx-auto">
+                    <div class="subscribe__inner">
+                        <div class="subscribe__title commons__title h2 text-white">
+                            Subscribe to
+                            our Newsletter
+                        </div>
+                        <div class="subscribe__input-wrapper">
+                            <input class="substring__input" placeholder="Your Email Address" type="text">
+                            <div class="substring__btn commons__btn">Substring</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUNSCRIBE END -->
+
+
+    <!-- FOOTER START -->
+    <div class="footer">
+        <div class="container">
+            <div class="row footer-top ">
+                <div class="col-md-6 col-lg-3 text-start text-lg-end">
+                    <div class="footer__left">
+                        <div class="footer__title commons__title h5">
+                            Contact Us
+                        </div>
+                        <div class="footer__left-item">
+                            <b>Email</b>
+                            <div class="commons__p">needhelp@Organia.com</div>
+                        </div>
+                        <div class="footer__left-item">
+                            <b>Phone</b>
+                            <div class="commons__p">666 888 888</div>
+                        </div>
+                        <div class="footer__left-item">
+                            <b>Address</b>
+                            <div class="commons__p">88 road, borklyn street, USA</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-flex">
+                    <div class="footer__center">
+                        <div class="footer__logo logo justify-content-center">
+                            <img src="./images/guide/Logo.svg" alt="">
+                            <span>Organick</span>
+                        </div>
+                        <div class="footer__center-text commons__p text-center">Simply dummy text of the printing and
+                            typesetting
+                            industry.
+                            Lorem Ipsum simply dummy text of the printing
+                        </div>
+                        <div class="footer__networks">
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-instagram.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-facebook.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-twitter.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-p.svg"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer__right">
+                        <div class="footer__title commons__title h5">
+                            Utility Pages
+                        </div>
+                        <div class="footer__right-item">Style Guide</div>
+                        <div class="footer__right-item">404 Not Found</div>
+                        <div class="footer__right-item">Password Protected</div>
+                        <div class="footer__right-item">Licences</div>
+                        <div class="footer__right-item">Changelog</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 d-lg-none">
+                    <div class="footer__center">
+                        <div class="footer__logo logo justify-content-center">
+                            <img src="./images/guide/Logo.svg" alt="">
+                            <span>Organick</span>
+                        </div>
+                        <div class="footer__center-text commons__p text-center">Simply dummy text of the printing and
+                            typesetting
+                            industry.
+                            Lorem Ipsum simply dummy text of the printing
+                        </div>
+                        <div class="footer__networks">
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-instagram.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-facebook.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-twitter.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-p.svg"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copiright">
+            <div class="copiright__text">
+                Copyright © <b>Organick</b>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

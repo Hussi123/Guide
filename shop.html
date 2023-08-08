@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- main css link -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- about css link -->
+    <link rel="stylesheet" href="./css/about.css">
+
+    <title>Shop</title>
+</head>
+
+<body>
+
+
+    <!-- HEADER START  -->
+    <header class="header">
+        <div class="container">
+            <a href="./index.html" class="header__logo">
+                <img src="./images/guide/Logo.svg" alt="">
+                <span>Organick</span>
+            </a>
+
+            <nav class="navbar">
+                <a href="./organik.html" class="navbar__link">Home</a>
+                <a href="./about.html" class="navbar__link">About</a>
+                <a href="./pages.html" class="navbar__link">Pages</a>
+                <a href="./shop.html" class="navbar__link header__dropdown">
+                    <span> Shop </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6" fill="none">
+                        <path d="M0.791016 1.5L3.79102 4.5L6.79102 1.5" stroke="#274C5B" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></a>
+                <a href="./services.html" class="navbar__link">Projects</a>
+                <a href="./news.html" class="navbar__link">News</a>
+            </nav>
+
+            <div class="header__right d-none d-xxl-flex">
+                <div class="header__right-input">
+                    <input type="text" id="header__right-input">
+                    <label for="header__right-input">
+                        <img src="./images/guide/Search_Icon.svg" alt="">
+                    </label>
+                </div>
+                <div class="header__right-card">
+                    <img src="images/guide/Cart_Icon.svg" alt="">
+                    <span>Cart (0)</span>
+                </div>
+            </div>
+            <label for="navbar__toglar" class="header__mobile-navbar">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MOBILE NAVBAR START -->
+    <input class="bg-danger" type="checkbox" id="navbar__toglar">
+    <section class="mobile-navbar">
+        <label for="navbar__toglar" class="mobile-navbar__close">
+            <i class="bi bi-x-lg"></i>
+
+        </label>
+        <nav class="navbar">
+            <a href="./organik.html" class="navbar__link">Home</a>
+            <a href="./about.html" class="navbar__link">About</a>
+            <a href="./pages.html" class="navbar__link">Pages</a>
+            <a href="./shop.html" class="navbar__link header__dropdown">
+                <span> Shop </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6" fill="none">
+                    <path d="M0.791016 1.5L3.79102 4.5L6.79102 1.5" stroke="#274C5B" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg></a>
+            <a href="./services.html" class="navbar__link">Projects</a>
+            <a href="./news.html" class="navbar__link">News</a>
+        </nav>
+    </section>
+    <!-- MOBILE NAVBAR END -->
+
+
+
+    <!-- PRODUCT START -->
+    <section class="product">
+        <div class="container">
+            <div class="product-cards">
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img1.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img2.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img3.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img4.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img5.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img6.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img7.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img8.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img9.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img10.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img2.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="./shop-single.html">
+                    <div class="product-cards__item">
+                        <span class="product-cards__item-name">Vegetable</span>
+                        <div class="product-cards__item-img">
+                            <img src="./images/about/product__card-img1.jpg" alt="">
+                        </div>
+                        <div class="product-cards__item-content">
+                            <div class="product-cards__item-title">
+                                Calabrese Broccoli
+                            </div>
+                            <div class="product-cards__item-price">
+                                <div class="product-cards__item-price__left">
+                                    <span>$20.00</span>
+                                    <b>$11.00</b>
+                                </div>
+                                <div class="product-cards__item-price__right">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- PRODUCT END -->
+
+
+    <!-- SUBSCRIBE START  -->
+    <section class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-11 mx-auto">
+                    <div class="subscribe__inner">
+                        <div class="subscribe__title commons__title h2 text-white">
+                            Subscribe to
+                            our Newsletter
+                        </div>
+                        <div class="subscribe__input-wrapper">
+                            <input class="substring__input" placeholder="Your Email Address" type="text">
+                            <div class="substring__btn commons__btn">Substring</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUNSCRIBE END -->
+
+
+    <!-- FOOTER START -->
+    <div class="footer">
+        <div class="container">
+            <div class="row footer-top ">
+                <div class="col-md-6 col-lg-3 text-start text-lg-end">
+                    <div class="footer__left">
+                        <div class="footer__title commons__title h5">
+                            Contact Us
+                        </div>
+                        <div class="footer__left-item">
+                            <b>Email</b>
+                            <div class="commons__p">needhelp@Organia.com</div>
+                        </div>
+                        <div class="footer__left-item">
+                            <b>Phone</b>
+                            <div class="commons__p">666 888 888</div>
+                        </div>
+                        <div class="footer__left-item">
+                            <b>Address</b>
+                            <div class="commons__p">88 road, borklyn street, USA</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-flex">
+                    <div class="footer__center">
+                        <div class="footer__logo logo justify-content-center">
+                            <img src="./images/guide/Logo.svg" alt="">
+                            <span>Organick</span>
+                        </div>
+                        <div class="footer__center-text commons__p text-center">Simply dummy text of the printing and
+                            typesetting
+                            industry.
+                            Lorem Ipsum simply dummy text of the printing
+                        </div>
+                        <div class="footer__networks">
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-instagram.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-facebook.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-twitter.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-p.svg"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer__right">
+                        <div class="footer__title commons__title h5">
+                            Utility Pages
+                        </div>
+                        <div class="footer__right-item">Style Guide</div>
+                        <div class="footer__right-item">404 Not Found</div>
+                        <div class="footer__right-item">Password Protected</div>
+                        <div class="footer__right-item">Licences</div>
+                        <div class="footer__right-item">Changelog</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 d-lg-none">
+                    <div class="footer__center">
+                        <div class="footer__logo logo justify-content-center">
+                            <img src="./images/guide/Logo.svg" alt="">
+                            <span>Organick</span>
+                        </div>
+                        <div class="footer__center-text commons__p text-center">Simply dummy text of the printing and
+                            typesetting
+                            industry.
+                            Lorem Ipsum simply dummy text of the printing
+                        </div>
+                        <div class="footer__networks">
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-instagram.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-facebook.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-twitter.svg"
+                                    alt=""></a>
+                            <a href="#!" class="footer__networks-item"><img src="./images/guide/footer-p.svg"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copiright">
+            <div class="copiright__text">
+                Copyright © <b>Organick</b>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

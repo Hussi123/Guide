@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.yellowtail {
+    font-family: 'Yellowtail', cursive;
+    color: #68A47F;
+    font-size: 36px;
+}
+
+.banner {
+    background: #E3F1E9;
+    background: url('../images/organik/organik-banner-bg.png') center/cover no-repeat;
+    width: 100%;
+    padding: 250px 0;
+    position: relative;
+}
+
+.banner .banner__position-img {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    pointer-events: none;
+}
+
+.banner__info{
+    margin-left: 98px;
+}
+
+.banner .banner__title{
+    margin: 5px  0  23px;
+}
+
+.banner__btn{
+    max-width: 220px;
+}

@@ -1,0 +1,48 @@
+/* blog banner start */
+.blog-banner {
+    background: url('../images/organik/blog-baner.png') center/cover no-repeat;
+    width: 100%;
+    height: 1312px;
+    position: relative;
+    margin-bottom: 260px;
+}
+
+.blog-banner__content {
+    position: absolute;
+    bottom: -180px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1400px;
+    padding: 76px 82px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 14px 36px 0px rgba(204, 204, 204, 0.25);
+}
+
+.blog-banner__content-text{
+    max-width: 726px;
+}
+
+/* blog banner end */
+
+/* blog description start */
+.blog-description{
+    padding-bottom: 121px;
+}
+
+.blog-description__title.h2{
+        margin: 22px 0 24px;
+}
+
+.blog-description__title.h4{
+    margin: 0 0 24px;
+}
+
+.blog-description__list{
+    margin-top: 30px;
+}
+
+.blog-description__explanation{
+    margin: 50px 0;
+}
+/* blog description end */
